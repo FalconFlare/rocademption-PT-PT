@@ -44,7 +44,7 @@ end)
 
 -- Fonction principale, utilise l'objet "deferrals" transmis par l'evenement "playerConnecting"
 function Rocade(steamID, def, source)
-	-- retarder la connexion
+	-- retarder la connexionn
 	def.defer()
 
 	-- faire patienter un peu pour laisser le temps aux listes de s'actualiser
